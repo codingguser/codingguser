@@ -1,0 +1,99 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0px;
+    font-size: 22px;
+}
+
+ #logo {
+    margin: 0px;
+    padding: 8px;
+    font-family: "Kanit", sans-serif;
+    box-shadow: 8px 8px 10px 3px crimson;
+    width: 15%;
+    border-radius: 50%;
+    text-shadow: 
+        -2px -2px 0 black,  /* Top-left shadow */
+         2px -2px 0 black,  /* Top-right shadow */
+        -2px  2px 0 black,  /* Bottom-left shadow */
+         2px  2px 0 black;  /* Bottom-right shadow */
+}
+
+ul {
+    margin: 0px;
+}
+
+body > header {
+    background-color: lightsalmon;
+    display: flex;
+    height: 15vh;
+    align-items: center;
+    justify-content: space-around;
+    color: crimson;
+}
+
+#nav-ul{
+    display: flex;
+}
+
+#nav-ul > li {
+    padding: 8px;
+    margin: 16px;
+}
+
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbutton {
+    color:darkgreen;
+    text-decoration: none;
+    padding: 12px;
+    border: 1px solid crimson;
+    border-radius: 50%;
+}
+
+body > main  article {
+    width: 70%;
+    margin: auto;
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-content > div {
+    width: 70%;
+}
+
+form {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+body > footer {
+    background-color: lightsalmon;
+    display: flex;
+}
+
+img {
+    border-radius: 100%;
+}
+
+#footer-ul{
+    display: flex;
+    list-style: none;
+}
+
+#footer-ul > div > li {
+    margin-left: 14px;
+}
+
+#footer-ul > div li > a {
+    color: darkgreen;
+    text-decoration: none;
+}
